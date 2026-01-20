@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BioConnect | Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">BioConnect</div>
+</header>
+
+<section class="login-container">
+    <div class="login-box">
+        <h2>Welcome to BioConnect</h2>
+        <p>Select your role to continue</p>
+
+        <!-- ROLE SELECTION -->
+        <div class="role-selection">
+            <button onclick="selectRole('student')" id="studentBtn">🎓 Student</button>
+            <button onclick="selectRole('faculty')" id="facultyBtn">🧑‍🏫 Faculty</button>
+        </div>
+
+        <!-- LOGIN FORM -->
+        <form id="loginForm">
+            <input type="email" placeholder="University Email" required />
+            <input type="password" placeholder="Password" required />
+            <button type="submit">Login</button>
+        </form>
+
+        <p class="note">
+            Pilot access is limited to registered university members.
+        </p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
