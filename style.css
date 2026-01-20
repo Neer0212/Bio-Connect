@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: #0b5f4b;
+    background: #0C134F;
     color: white;
 }
 
@@ -37,7 +37,7 @@ body {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(to right, #0b5f4b, #11866c);
+    background: linear-gradient(to right, #1D267D, #1D267D);
     color: white;
 }
 
@@ -62,13 +62,13 @@ body {
 
 .primary {
     background: white;
-    color: #0b5f4b;
+    color: #0C134F;
     border-radius: 5px;
 }
 
 .secondary {
-    background: transparent;
-    color: white;
+    background: #F9FDFB;
+    color: #0C134F;
     border: 2px solid white;
     border-radius: 5px;
 }
@@ -138,7 +138,7 @@ body {
 }
 
 .contact button {
-    background: #0b5f4b;
+    background: #0C134F;
     color: white;
     border: none;
     padding: 12px;
@@ -180,7 +180,7 @@ body {
 .dash-card button {
     margin-top: 15px;
     padding: 10px 15px;
-    background: #0b5f4b;
+    background: #0C134F;
     color: white;
     border: none;
     cursor: pointer;
@@ -224,16 +224,16 @@ body {
 .role-selection button {
     width: 48%;
     padding: 12px;
-    border: 2px solid #0b5f4b;
+    border: 2px solid #0C134F;
     background: white;
-    color: #0b5f4b;
+    color: #0C134F;
     font-weight: 600;
     cursor: pointer;
     border-radius: 6px;
 }
 
 .role-selection button.active {
-    background: #0b5f4b;
+    background: #0C134F;
     color: white;
 }
 
@@ -249,7 +249,7 @@ body {
     width: 100%;
     margin-top: 15px;
     padding: 12px;
-    background: #0b5f4b;
+    background: #0C134F;
     color: white;
     border: none;
     border-radius: 6px;
@@ -265,7 +265,7 @@ body {
 
 /* FOOTER */
 footer {
-    background: #0b5f4b;
+    background: #0C134F;
     color: white;
     text-align: center;
     padding: 15px;
