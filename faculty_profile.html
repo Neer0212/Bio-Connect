@@ -1,20 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BioConnect | Faculty Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <a href="index.html">BioConnect</a>
+    </div>
+    <nav>
+        <a href="faculty.html">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="login.html">Logout</a>
+    </nav>
+</header>
+
 <section class="dashboard">
-  <h1>Faculty Profile</h1>
+    <h1>Faculty Profile</h1>
 
-  <div class="form-card">
-    <h3>Basic Info</h3>
-    <input type="text" placeholder="Full Name">
-    <input type="text" placeholder="Department">
-    <input type="text" placeholder="University">
-  </div>
+    <!-- Profile Header -->
+    <div class="profile-header">
+        <img src="https://via.placeholder.com/90" alt="profile">
+        <div>
+            <h2>Dr. Full Name</h2>
+            <p>Department of Biotechnology • University Name</p>
+        </div>
+    </div>
 
-  <div class="form-card">
-    <h3>Research Areas</h3>
-    <textarea placeholder="CRISPR, Drug Discovery, Genomics..."></textarea>
-  </div>
+    <!-- Profile Grid -->
+    <div class="profile-grid">
 
-  <div class="form-card">
-    <h3>Publications</h3>
-    <textarea placeholder="List your publications"></textarea>
-  </div>
+        <div class="form-card">
+            <h3>Basic Information</h3>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Department">
+            <input type="text" placeholder="University">
+            <input type="email" placeholder="Official Email">
+        </div>
+
+        <div class="form-card">
+            <h3>Research Areas</h3>
+            <textarea placeholder="e.g. CRISPR, Genomics, Drug Discovery, Bioinformatics"></textarea>
+        </div>
+
+        <div class="form-card">
+            <h3>Publications</h3>
+            <textarea placeholder="List your key publications, journals, conferences"></textarea>
+        </div>
+
+        <div class="form-card">
+            <h3>Ongoing Research Projects</h3>
+            <textarea placeholder="Describe current projects students can apply to"></textarea>
+        </div>
+
+        <div class="form-card">
+            <h3>Laboratory Details</h3>
+            <textarea placeholder="Lab facilities, equipment, research environment"></textarea>
+        </div>
+
+        <div class="form-card">
+            <h3>Accepting Students?</h3>
+            <select>
+                <option>Yes - Open for applications</option>
+                <option>No - Not accepting currently</option>
+            </select>
+        </div>
+
+        <div class="form-card">
+            <button>Save Profile</button>
+        </div>
+
+    </div>
 </section>
+
+</body>
+</html>
