@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BioConnect | Events & Conferences</title>
+  <title>BioConnect | Events</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,14 +13,13 @@
   </div>
   <nav>
     <a href="student.html">Dashboard</a>
+    <a href="login.html">Logout</a>
   </nav>
 </header>
 
 <section class="dashboard">
   <h1>BioEvents & Conferences</h1>
-  <p>Discover and participate in biotech conferences, workshops and seminars.</p>
 
-  <!-- Faculty can use this -->
   <div class="form-card">
     <h3>Add New Event (Faculty)</h3>
     <input type="text" placeholder="Event Title">
@@ -31,11 +30,26 @@
     <button>Add Event</button>
   </div>
 
-  <!-- Event Cards -->
   <div class="dashboard-grid">
 
     <div class="event-card">
       <h3>International Conference on Genomics</h3>
-      <p><strong>Organizer:</strong> IIT Delhi</p>
-      <p><strong>Date:</strong> 12 March 2026</p>
-      <p><strong>Location:</strong> New Del
+      <p class="event-meta"><strong>Organizer:</strong> IIT Delhi</p>
+      <p class="event-meta"><strong>Date:</strong> 12 March 2026</p>
+      <p class="event-meta"><strong>Location:</strong> New Delhi</p>
+      <button>Register</button>
+    </div>
+
+    <div class="event-card">
+      <h3>CRISPR Applications Workshop</h3>
+      <p class="event-meta"><strong>Organizer:</strong> IISc Bangalore</p>
+      <p class="event-meta"><strong>Date:</strong> 25 April 2026</p>
+      <p class="event-meta"><strong>Location:</strong> Online</p>
+      <button>Register</button>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
